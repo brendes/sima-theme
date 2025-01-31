@@ -317,7 +317,7 @@
 
     "terminal.ansiBlack": "{black_1}",
     "terminal.ansiBlue": "{blue_1}",
-    "terminal.ansiBrightBlack": "{fg_fade}",
+    "terminal.ansiBrightBlack": "{fg_dim}",
     "terminal.ansiBrightBlue": "{blue_2}",
     "terminal.ansiBrightCyan": "{cyan_2}",
     "terminal.ansiBrightGreen": "{green_2}",
