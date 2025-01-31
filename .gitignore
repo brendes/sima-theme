@@ -1,0 +1,11 @@
+*.code-workspace
+*.vsix
+.venv
+bin
+CHANGELOG.md
+include
+lib
+node_modules
+pyvenv.cfg
+src/__pycache__
+themes/*
