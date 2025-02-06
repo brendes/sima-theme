@@ -196,6 +196,7 @@ for theme_name, theme in themes.items():
         ]:
             theme[f"{color}_2"] = theme[f"{color}_1"]
 
+
 def generate_theme(theme: Dict[str, str], template_path: str, output_path: str):
     """Generate a color-theme JSON file based on a theme dictionary."""
     with open(template_path, "r") as f:
