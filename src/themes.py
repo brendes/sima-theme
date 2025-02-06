@@ -144,7 +144,6 @@ themes = {
 for theme_name, theme in themes.items():
     theme["bg_main"] = theme["base_0"]
     theme["bg_subtle"] = theme["base_1"]
-    theme["bg_ui"] = theme["base_0"]
     theme["bg_fade"] = theme["base_2"]
     theme["bg_hl"] = theme["base_3"]
     theme["bg_sel"] = theme["base_3"] + "ee"
@@ -178,6 +177,7 @@ for theme_name, theme in themes.items():
         theme["bg_match_2"] = theme["magenta_1"] + "78"
         theme["border_hard"] = theme["fg_main"] + "78"
         theme["border_soft"] = theme["fg_main"] + "20"
+        theme["border_widget"] = theme["border_hard"]
         theme["black_1"] = theme["bg_main"]
         theme["white_2"] = theme["fg_main"]
         theme["link"] = theme["cyan_1"]
@@ -192,8 +192,3 @@ for theme_name, theme in themes.items():
             "purple"
         ]:
             theme[f"{color}_2"] = theme[f"{color}_1"]
-
-acme_overrides = {
-    "bg_sel": themes["acme"]["yellow_2"] + "ee",
-}
-# themes["acme"].update(acme_overrides)
