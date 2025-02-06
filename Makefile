@@ -1,5 +1,4 @@
 build:
-	mkdir -p themes
 	python3 src/build.py
 
 package: build
