@@ -28,7 +28,7 @@ def generate_theme(theme_dict, template_file, output_file):
 
 def main():
     for theme_name, theme_dict in themes.items():
-        output_file_name = f"stark-{theme_name.replace('_', '-')}-color-theme.json"
+        output_file_name = f"sima-{theme_name.replace('_', '-')}-color-theme.json"
         output_file_path = os.path.join("themes", output_file_name)
         generate_theme(theme_dict, "src/template.json", output_file_path)
 
