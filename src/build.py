@@ -180,7 +180,7 @@ for theme_name, theme in themes.items():
         theme["bg_match_1"] = theme["bg_strong"] + "bb"
         theme["bg_match_2"] = theme["bg_bold"] + "dd"
         theme["border_hard"] = theme["fg_main"] + "50"
-        theme["border_soft"] = theme["fg_main"] + "20"
+        theme["border_soft"] = theme["fg_main"] + "28"
         theme["black_1"] = theme["bg_main"]
         theme["white_2"] = theme["fg_main"]
         theme["link"] = theme["cyan_1"]
