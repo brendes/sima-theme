@@ -28,7 +28,7 @@ base_colors = {
     "dark": {
         "theme_type": "dark",
         "red_1": "#f87870",
-        "orange_1": "#dd8855",
+        "orange_1": "#dd9922",
         "yellow_1": "#eebb88",
         "green_1": "#aab866",
         "blue_1": "#80a8b0",
@@ -45,7 +45,7 @@ themes = {
         "theme_name": "sima white",
         "base_0": "#ffffff",
         "base_1": "#f8f8f8",
-        "base_2": "#f2f2f2",
+        "base_2": "#f3f3f3",
         "base_3": "#eaeaea",
         "base_4": "#dddddd",
         "base_5": "#707070",
@@ -57,8 +57,8 @@ themes = {
         "theme_name": "sima sun",
         "base_0": "#fffffa",
         "base_1": "#f8f8f3",
-        "base_2": "#f2f2ed",
-        "base_3": "#e8e8e3",
+        "base_2": "#f3f3ee",
+        "base_3": "#eaeae5",
         "base_4": "#ddddd8",
         "base_5": "#70706b",
         "base_6": "#000000",
@@ -81,8 +81,8 @@ themes = {
         "theme_name": "sima acme",
         "base_0": "#ffffee",
         "base_1": "#f8f8e8",
-        "base_2": "#f2f2e2",
-        "base_3": "#e8e8d8",
+        "base_2": "#f3f3e3",
+        "base_3": "#eaeada",
         "base_4": "#ddddcc",
         "base_5": "#707060",
         "base_6": "#000000",
@@ -104,13 +104,13 @@ themes = {
         **base_colors["dark"],
         "theme_name": "sima dark",
         "base_0": "#282828",
-        "base_1": "#303030",
-        "base_2": "#383838",
+        "base_1": "#333333",
+        "base_2": "#3b3b3b",
         "base_3": "#484848",
         "base_4": "#585858",
         "base_5": "#a8a8a8",
-        "base_6": "#d8d8d8",
-        "base_7": "#ffffff",
+        "base_6": "#cccccc",
+        "base_7": "#eeeeee",
     },
     "gruv": {
         **base_colors["dark"],
@@ -160,12 +160,12 @@ for theme_name, theme in themes.items():
     if theme.get("theme_type") == "light":
         theme["fg_ghost"] = theme["fg_main"] + "18"
         theme["fg_faint"] = theme["fg_main"] + "33"
-        theme["fg_fade"] = theme["fg_main"] + "5c"
-        theme["fg_dim"] = theme["fg_main"] + "88"
-        theme["fg_subtle"] = theme["fg_main"] + "a8"
+        theme["fg_fade"] = theme["fg_main"] + "55"
+        theme["fg_dim"] = theme["fg_main"] + "80"
+        theme["fg_subtle"] = theme["fg_main"] + "a0"
         theme["bg_match_1"] = theme["bg_strong"] + "ee"
         theme["bg_match_2"] = theme["yellow_2"] + "dd"
-        theme["border_hard"] = theme["fg_main"] + "78"
+        theme["border_hard"] = theme["fg_main"] + "58"
         theme["border_soft"] = theme["fg_main"] + "20"
         theme["black_1"] = theme["fg_main"]
         theme["white_2"] = theme["bg_main"]
@@ -174,12 +174,12 @@ for theme_name, theme in themes.items():
     elif theme.get("theme_type") == "dark":
         theme["fg_ghost"] = theme["fg_main"] + "18"
         theme["fg_faint"] = theme["fg_main"] + "38"
-        theme["fg_fade"] = theme["fg_main"] + "60"
+        theme["fg_fade"] = theme["fg_main"] + "70"
         theme["fg_dim"] = theme["fg_main"] + "98"
-        theme["fg_subtle"] = theme["fg_main"] + "c8"
+        theme["fg_subtle"] = theme["fg_main"] + "bb"
         theme["bg_match_1"] = theme["bg_strong"] + "ee"
-        theme["bg_match_2"] = theme["magenta_1"] + "78"
-        theme["border_hard"] = theme["fg_main"] + "78"
+        theme["bg_match_2"] = theme["bg_hl"]
+        theme["border_hard"] = theme["fg_main"] + "50"
         theme["border_soft"] = theme["fg_main"] + "20"
         theme["black_1"] = theme["bg_main"]
         theme["white_2"] = theme["fg_main"]
