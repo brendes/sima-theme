@@ -87,6 +87,7 @@
         "editorWidget.background": "{bg_subtle}",
         "editorWidget.foreground": "{fg_main}",
         "editorWidget.border": "{bg_subtle}",
+        "quickInput.background": "{bg_main}",
 
         "activityBar.activeBorder": "{bg_main}",
         "activityBar.activeBackground": "{bg_fade}",
@@ -219,7 +220,7 @@
         "list.focusBackground": "{bg_hl}",
         "list.focusForeground": "{fg_main}",
         "list.highlightForeground": "{fg_main}",
-        "list.hoverBackground": "{bg_fade}",
+        "list.hoverBackground": "{bg_subtle}",
         "list.hoverForeground": "{fg_bold}",
         "list.inactiveSelectionBackground": "{bg_fade}",
         "list.warningForeground": "{orange_1}",
